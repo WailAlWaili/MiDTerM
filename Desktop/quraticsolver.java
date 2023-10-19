@@ -1,4 +1,4 @@
-import java.lang.*;
+git initimport java.lang.*;
 public class quraticsolver { 
 
 	public static void main(String[] args) {
@@ -7,10 +7,10 @@ public class quraticsolver {
 		int b = 3;
 		int c = 2;
 		if (b*b - 4*a*c <0)
-			System.out.println("This equation " + a + "x^2 + " + b +"x + " + c +" has no solution");
+			System.out.println("This equation " + a + "x^2 + " + b +"x + " + c +" demonstrates no solution!");
 		else
 			{
-				System.out.println("The solution for the equation " + a + "x^2 + " + b +"x + " + c +" are");
+				System.out.println("The solution for these equations " + a + "x^2 + " + b +"x + " + c +" are as follows");
 				System.out.println((-b+Math.sqrt(b*b-4*a*c))/2*a + " and " + (-b-Math.sqrt(b*b-4*a*c))/2*a);
 			}
 	}
